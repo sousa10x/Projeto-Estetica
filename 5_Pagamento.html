@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica de estetica</title>
+    <link rel="stylesheet" href="1_estiloPrincipal.css">
+    <link rel="stylesheet" href="5_estiloPagamento.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <figure>
+            <img class="logoimg" src="LOGOPRINCIPAL.jpg">
+        </figure>
+        <h1>Clínica de Estética</h1>
+    </header>
+    <nav>
+        <ul class="UlPrincipal">
+            <li class="LiPrincipal"><a href="">PAGAMENTOS</a></li>
+            <li class="LiPrincipal"><a class="cadastro" href="1_Telainicial.htm">VOLTAR</a></li>
+
+
+        </ul>
+    </nav>
+    <div class="BoxPagamento">
+        <div class="divPagamento">
+            <p class="ParagraPAGAR">Escolha a forma de pagamento</p>
+            <select class="PagamentoPagar">
+                <option class="TipoPagamento" value="credito">CARTÃO DE CREDITO</option>
+                <option class="TipoPagamento" value="Dinheiro">DINHEIRO</option>
+                <option class="TipoPagamento" value="Cartão de Debito">CARTÃO DE DEBITO</option>
+                <option class="TipoPagamento" value="Pix">PIX</option>
+            </select>
+
+            <table>
+                <tr>
+                    <th class="InfoPagamento" colspan="2">INFORMAÇÔES</th>
+                </tr>
+                <tr>
+                    <td class="TdColuna1">NOME</td>
+                    <td class="TdPagamentoColuna2">JULIO SOUSA</td>
+                </tr>
+                <tr>
+                    <td class="TdColuna1">CPF</td>
+                    <td class="TdPagamentoColuna2">000.000.000.00</td>
+                </tr>
+                <tr>
+                    <td class="TdColuna1">VALOR</td>
+                    <td id="recebePagamento" class="TdPagamentoColuna2"></td>
+                </tr>
+                <tr>
+                    <td class="TdColuna1">DATA</td>
+                    <td class="TdPagamentoColuna2">20/05/2023</td>
+                </tr>
+                <tr>
+                    <td class="TdColuna1">HORAS</td>
+                    <td class="TdPagamentoColuna2">15:25</td>
+                </tr>
+                <tr>
+                    <td class="TdColuna1">SERVIÇO</td>
+                    <td id="RecebeServico" class="TdPagamentoColuna2"></td>
+                </tr>
+
+            </table>
+            <input class="BotaoPagamento" type="submit" value="Fazer Pagamento">
+
+        </div>
+    </div>
+    <script src="5-scriptPagamento.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+.BoxPagamento {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.InfoPagamento {
+    color: #fff;
+    background: rgb(10, 21, 21);
+    text-align:center;
+    padding: 3px 70px 3px 70px;
+    border: 1px solid black
+}
+.TdColuna1 {
+    background: rgb(46, 67, 67);
+    padding: 3px 3px 3px 3px;
+    border: 1px solid black;
+    color: #fff;
+}
+.TdPagamentoColuna2 {
+    text-align: center;
+    border: 1px solid black;
+    color: #fff;
+    background: rgb(108, 157, 157);
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.PagamentoPagar {
+    border: 1px solid black;
+    height: 20px;
+    color:rgb(255, 255, 255);
+    background: rgb(108, 157, 157);
+}
+.TipoPagamento {
+    color:rgb(2, 2, 2);
+    background:rgb(105, 209, 145)
+}
+.ParagraPAGAR {
+    color:#000000;
+    margin-right: 8px;
+
+}
+.BotaoPagamento {
+
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 20px;
+    background:rgb(105, 209, 145);
+    width: 93%;
+}
+.divPagamento {
+    background: #fff;
+    width: 285px;
+    height: 300px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 3px;
+    background: #D8BFD8;
+}
+.BotaoPagamento:hover {
+    background:rgb(38, 182, 93); 
+}
+body {
+    padding: 0px 2px 0px 1px;
+    background-image: url("clinica-estetica foto de fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

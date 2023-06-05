@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+TAS+Beginner&family=Open+Sans:ital,wght@0,400;1,700;1,800&family=PT+Serif:ital,wght@0,700;1,700&display=swap');
+*{
+    /* background-image: url("clinica-estetica foto de fundo.jpg"); */
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header {
+    width: 100vw;
+    color: MediumPurple;
+    background: Thistle;
+    font-family: 'PT Serif', serif;
+    display: block;
+}
+.logoimg {
+    float: left;
+    margin: 5px;
+    max-width: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+.UlPrincipal {
+
+    background: rgb(236, 228, 236);
+    display: flex;
+    margin-left: 0px;
+    border: 1px solid black; 
+}
+.LiPrincipal { 
+    border-left: 1px solid black;
+    list-style-type: none;
+    margin-right: 40px;
+}
+h1 {
+    display: inline;
+}
+p {
+    display: inline;
+    margin-left: 10px;
+}
+body {
+    height: 100vw;
+    padding: 0px 2px 0px 1px;
+    background-image: url("clinica-estetica foto de fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+

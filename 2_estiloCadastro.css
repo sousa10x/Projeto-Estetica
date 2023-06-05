@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+TAS+Beginner&family=Open+Sans:ital,wght@0,400;1,700;1,800&family=PT+Serif:ital,wght@0,700;1,700&display=swap');
+.InputCadastro {
+    display: block;
+    
+}
+/* centralizando a div containerInputCadastro */
+.ContainerInputCadastro {
+    width: 100vw;
+    height: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    /* align-items: center; */
+   
+}
+/* centralizando a div BOX */
+.box {
+    padding-top: 15px;
+    width: 400px;
+    height: 400px;
+    background: #fff;
+}
+input{
+    border: 1px solid black;
+    background:#d3d6d9;
+    height: 30px;
+    width: 95%;
+    margin: 2%;
+}
+body {
+    padding: 0px 2px 0px 1px;
+    background-image: url("clinica-estetica foto de fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
