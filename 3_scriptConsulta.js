@@ -85,24 +85,3 @@ EnviarModal.onclick = function () {
     }
 
 }
-// let ModalDataId = document.getElementById("ModalDataId")
-// let BotaoAbrirModalData = document.getElementById("BotaoAbrirModalData")
-// BotaoAbrirModalData.addEventListener('click', function () {
-//     ModalDataId.showModal()
-// })
-
-// let FecharModalData = document.getElementById("FecharModalData")
-// FecharModalData.addEventListener('click', function () {
-//     ModalDataId.close()
-// })
-
-
-
-
-
-// $('verFucao').on('click', function() {
-//     var valores = document.querySelectorAll("table tr td");
-//     for (i = 0; i < valores.length; i++) {
-//         console.log(valores[i].innerHTML);
-//     }
-// })
