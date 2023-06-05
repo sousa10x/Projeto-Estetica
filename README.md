@@ -1,4 +1,5 @@
 Introdução
+
 O sistema que será desenvolvido tem como finalidade fazer o gerenciamento de uma clínica de estética, ajudando e otimizado o trabalho diário. 
 Software que só será usada pelos funcionários da clínica para marcar procedimentos estéticos controlar cadastros de clientes, e ter controle no fluxo de caixa.
 
