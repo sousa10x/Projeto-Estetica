@@ -2,7 +2,7 @@
 let Modal = document.querySelector("dialog")
 let FecharBotao = document.getElementById("BotaoFechar")
 
-FecharBotao.addEventListener('click', function () {
+FecharBotao.addEventListener('click', () => {
     Modal.close()
     document.getElementById("informativo").innerHTML = "";
     document.getElementById("InputDialog").value = "";
