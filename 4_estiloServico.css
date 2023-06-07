@@ -1,6 +1,4 @@
-
 .ContainerServico {
-    /* background:rgb(131, 202, 185); */
     display: flex;
     justify-content: center;
     border: 2px solid black;
@@ -11,7 +9,6 @@
 .BoxServico2 {
     padding-left: 27px;
     width: 800px;
-
 }
 .thServico {
     padding: 3px;
@@ -50,7 +47,6 @@
     border-radius: 2px;
 }
 .inputCPFServico {
-    /* display: block; */
     margin-top: 10px;
     height: 20px;
     margin-left: 1px;
@@ -58,7 +54,6 @@
     border: 1px solid black;
     background: rgb(223, 232, 236);
     margin-bottom: 5px;
-
 }
 table {
     border: 2px solid black;

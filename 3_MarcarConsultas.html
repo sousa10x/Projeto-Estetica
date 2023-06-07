@@ -9,13 +9,8 @@
     <link rel="stylesheet" href="1_estiloPrincipal.css">
     <link rel="stylesheet" href="3_estiloMarcarConsultas.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-
 </head>
-
 <body>
-
-
     <header>
         <figure>
             <img class="logoimg" src="LOGOPRINCIPAL.jpg">
@@ -25,7 +20,7 @@
     <nav>
         <ul class="UlPrincipal">
             <li class="LiPrincipal"><a href="">MARCAR CONSULTA</a></li>
-            <li class="LiPrincipal"><a class="cadastro" href="1_Telainicial.htm">VOLTAR</a></li>
+            <li class="LiPrincipal"><a class="cadastro" href="1_Telainicial.html">VOLTAR</a></li>
         </ul>
     </nav>
     <div class="containerConsultas">
@@ -36,22 +31,12 @@
                     <th class="thConsulta">Pagar</th>
                     <th class="thConsulta">Valor</th>
                     <th class="thConsulta">Modalidade</th>
-                    <!-- <th class="thConsulta">Informações sobre a modalidade</th> -->
                     <th class="thConsulta">Carrinho</th>
                 </tr>
                 <tr class="tr1">
                     <td id="Tr1Pagar" class="pagar">PAGAR</td>
                     <td id="Tr1Valor" class="valor">200 R$</td>
                     <td id="Tr1Tipo" class="tipo">Maquiador</td>
-                    <!-- <td id="Tr1Modalidade" class="modalidade">Tem como principal
-                        objetivo remover as
-                        impurezas do rosto,
-                        desentupindo os poros
-                        e combatendo o excesso
-                        de oleosidade
-
-                
-                    </td> -->
                     <td class="enviar">Enviar</td>
 
                 </tr>
@@ -59,11 +44,6 @@
                     <td id="Tr2Pagar" class="pagar">PAGAR</td>
                     <td id="Tr2Valor" class="valor">190 R$</td>
                     <td id="Tr2Tipo" class="tipo">Cabelo </td>
-                    <!-- <td id="Tr2Modalidade" class="modalidade">É um passo da skincare
-                        que tem como objetivo
-                        remover as células
-                        mortas do rosto
-                    </td> -->
                     <td class="enviar">Enviar</td>
 
                 </tr>
@@ -71,66 +51,39 @@
                     <td id="Tr3Pagar" class="pagar">PAGAR</td>
                     <td id="Tr3Valor" class="valor">300 R$</td>
                     <td id="Tr3Tipo" class="tipo">Manicure e Pedicure</td>
-                    <!-- <td id="Tr3Modalidade" class="modalidade">Promove um profundo
-                        estado de relaxamento ao
-                        diminuir as dores musculares
-                        </th> -->
                     <td class="enviar">Enviar</td>
                 </tr>
                 <tr>
                     <td id="Tr4Pagar" class="pagar">PAGAR</td>
                     <td id="Tr4Valor" class="valor">280 R$</td>
                     <td id="Tr4Tipo" class="tipo">Sobrancelha</td>
-                    <!-- <td id="Tr4Modalidade" class="modalidade">Estimula a cicatrização
-                        natural da derme e a
-                        produção natural de
-                        colágeno para maximizar
-                        as habilidades de recuperação
-                        das células da pele ao
-                        reduzir rugas e pigmentação
-                    </td> -->
                     <td class="enviar">Enviar</td>
                 </tr>
             </div>
     </div>
-
     </table>
-
     <!-- segue esse video link = https://www.youtube.com/watch?v=hg66uftLsTQ&t=21s -->
     <!-- programar o javascript para aparecer esse modal para o cliente -->
-
     <dialog class="ModalConsulta">
         <div class="ContaineDivDialog">
             <div calss="BoxDialog">
-                <!-- <label class="LabelDialog">Nome do Cliente</label>
-                <input id="InputDialog" class="inputDialogNOME" type="text" placeholder="Nome completo"> -->
-
                 <br>
                 <label class="LabelDialog" for="InputDialog">CPF DO CLIENTE</label><br>
                 <input id="InputDialog" class="inputDialogCPF" type="number" name="cpf" placeholder="CPF">
-
                 <br>
-
-
                 <table>
                     <tr>
                         <th class="thConsulta">Valor</th>
                         <th class="thConsulta">Modalidade</th>
-                        <!-- <th class="thConsulta">Informações sobre a modalidade</th> -->
                         <th class="thConsulta">Pagamento</th>
                     </tr>
                     <tr>
                         <td id="valorModal" class="valor"></td>
                         <td id="tipoModal" class="tipo"></td>
-                        <!-- <td id="modalidadeModal" class="modalidade"></td> -->
                         <td id="enviarModal" class="enviar">Enviar</td>
-
                     </tr>
-
                 </table>
                 <button id="BotaoFechar">Fechar</button>
-
-
                 <select>
                     <option>data</option>
                     <option>data2</option>

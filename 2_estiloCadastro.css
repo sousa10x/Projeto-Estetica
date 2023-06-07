@@ -3,7 +3,6 @@
     display: block;
     
 }
-/* centralizando a div containerInputCadastro */
 .ContainerInputCadastro {
     width: 100vw;
     height: 100vw;
@@ -12,10 +11,8 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 5px;
-    /* align-items: center; */
    
 }
-/* centralizando a div BOX */
 .box {
     padding-top: 15px;
     width: 400px;
