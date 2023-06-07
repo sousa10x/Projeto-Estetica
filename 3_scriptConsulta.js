@@ -51,7 +51,6 @@ let EnviarModal = document.getElementById("enviarModal");
 EnviarModal.onclick = function () {
     let InputDialog = document.getElementById("InputDialog").value;
     if (InputDialog == "") {
-
         var informarCPF = "🚫 PREENCHA O CAMPO COM O CPF DO CLIENTE🚫"
         informarCPF = informarCPF.fontcolor('#FFFFF')
         document.getElementById("informativo").innerHTML = informarCPF;
