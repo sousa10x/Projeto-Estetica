@@ -6,7 +6,6 @@
 .ContainerInputCadastro {
     width: 100vw;
     height: 100vw;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
