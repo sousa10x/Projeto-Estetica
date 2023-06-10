@@ -21,7 +21,7 @@ hr {
 .ContainerGerenciar,
 .ContainerVerificar {
     width: 100vw;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,3 +47,12 @@ tr, td {
 .TdManicure {
     font-size: 14px;
 }
+body {
+    height: 100vw;
+    padding: 0px 2px 0px 1px;
+    background-image: url("clinica-estetica_foto+de_fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+

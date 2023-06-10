@@ -1,10 +1,3 @@
-.containerConsultas {
-    width: 100vw;
-    min-height: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .thConsulta {
     padding: 3px;
     color: #fff;
@@ -35,18 +28,19 @@
 }
 #BotaoFechar {
     cursor: pointer;
-    height: 50px;
-    width: 80px;
+    height: 20px;
+    width: 250px;
     color:#fff;
     background:rgb(6, 34, 74);
     border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
 }
 #BotaoFechar:hover {
     background:rgb(22, 74, 148);
     font-size: 15px;
-}
-.boxConsultas {
-    padding-top: 15px;
+
 }
 .pagar {
     cursor: pointer;
@@ -66,7 +60,6 @@
     justify-content: center;
 }
 .TdData {
-
     color:#fff;
     border: 1px solid black;
     padding: 10px;
@@ -83,8 +76,8 @@
 .inputDialogCPF {
     border: none;
     border-radius: 2px;
-    width: 180px;
-    height: 25px;
+    width: 250px;
+    height: 17px;
     margin-left: 1px;
     margin-bottom: 5px;
     background: #c4c3cb;
@@ -95,20 +88,6 @@
 .LabelDialog {
     margin-right: 11px;
     color:#fff
-}
-.ModalConsulta {
-    margin-top: 100px;
-    margin-left: 15vw;
-    margin-right: 15vw;
-}
-.ContaineDivDialog {
-    max-width: 100vw;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background:rgb(81, 167, 167);
-
 }
 .informativo {
     color: red;
@@ -127,3 +106,32 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+.containerConsultas{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.boxConsultas {
+    width: 400px;
+    height: 300px;
+
+}
+.ContaineDivDialog {
+    background: red;
+}
+/* <div class="ContaineDivDialog">
+<div calss="BoxDialog">
+dialog class="ModalConsulta"> */
+
+
+
+
+
+.ModalConsulta {
+    width: 400px;
+}
+
+

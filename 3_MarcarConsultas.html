@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="3_estiloMarcarConsultas.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
+
 <body>
     <header>
         <figure>
@@ -23,10 +24,11 @@
             <li class="LiPrincipal"><a class="cadastro" href="1_Telainicial.html">VOLTAR</a></li>
         </ul>
     </nav>
-    <div class="containerConsultas">
-        <table class="tabela1">
 
-            <div class="boxConsultas">
+    <div class="containerConsultas">
+        <div class="boxConsultas">
+
+            <table class="tabela1">
                 <tr>
                     <th class="thConsulta">Pagar</th>
                     <th class="thConsulta">Valor</th>
@@ -59,14 +61,17 @@
                     <td id="Tr4Tipo" class="tipo">Sobrancelha</td>
                     <td class="enviar">Enviar</td>
                 </tr>
-            </div>
+            </table>
+
+        </div>
     </div>
-    </table>
     <!-- segue esse video link = https://www.youtube.com/watch?v=hg66uftLsTQ&t=21s -->
     <!-- programar o javascript para aparecer esse modal para o cliente -->
-    <dialog class="ModalConsulta">
-        <div class="ContaineDivDialog">
-            <div calss="BoxDialog">
+
+    <div class="ContaineDivDialog">
+        <div class="BoxDialog">
+
+            <dialog class="ModalConsulta">
                 <br>
                 <label class="LabelDialog" for="InputDialog">CPF DO CLIENTE</label><br>
                 <input id="InputDialog" class="inputDialogCPF" type="number" name="cpf" placeholder="CPF">
@@ -82,6 +87,7 @@
                         <td id="tipoModal" class="tipo"></td>
                         <td id="enviarModal" class="enviar">Enviar</td>
                     </tr>
+                    
                 </table>
                 <button id="BotaoFechar">Fechar</button>
                 <select>
@@ -89,10 +95,9 @@
                     <option>data2</option>
                     <option>data3</option>
                 </select>
+            </dialog>
 
-            </div>
-    </dialog>
-
+        </div>
     </div>
 
     <script src="3_scriptConsulta.js"></script>
