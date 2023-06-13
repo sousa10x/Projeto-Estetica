@@ -9,7 +9,7 @@ FecharBotao.addEventListener('click', () => {
 });
 var Tr1Pagar = document.getElementById("Tr1Pagar")
 Tr1Pagar.addEventListener('click', () => {
-    Modal.show()
+    Modal.showModal()
     Valor = document.getElementById('Tr1Valor').innerHTML;
     Tipo = document.getElementById('Tr1Tipo').innerHTML;
     document.getElementById("valorModal").innerHTML = Valor;
